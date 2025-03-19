@@ -1,0 +1,514 @@
+/* couleurs utilis�es
+	color1: #6aa84f;
+	color2: #3d85c6;
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Changa+One);
+
+/* Styles des divisions principales de la page */
+body{
+    margin:0% 0%;
+    font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size:0.8em;
+}
+
+a img {
+  border: 0;
+}
+
+/*	PAGE
+	________________________________________________________ 
+*/
+#page {
+	background-color:white;
+	width : 1000px;
+	margin : auto ;
+}
+
+
+/*	EN-TETE
+	________________________________________________________ 
+*/
+#entete{
+	background-color: #ffffffd3;
+	height: 70px;
+	margin: 0.5em;
+}
+
+#entete #logoGSB {
+	float : left;
+	background-color: white;
+	height : 70px;
+	margin-right: 20px;
+}
+
+#entete h1 {
+	font-family: 'Changa One';
+	font-weight: 400;
+	font-size: 28px;
+	text-align: center;
+	color: #6aa84f;
+	padding-top: 0.5em; 
+}
+
+
+#pied{
+	clear : both;
+	border : solid 0.2em #980101;
+	margin-left : 18%;
+	margin-top : 1em;
+	padding:0.4em;
+	padding: 0.2em;
+	border-collapse: separate;
+}
+
+
+/*	MENU GAUCHE
+	________________________________________________________ 
+*/
+#menuGauche {
+	margin-top: 0.8em;
+	padding: 0;
+	color: #3d85c6;
+	float: left;
+	width: 180px;
+}
+
+#menuGauche  #infosUtil{
+	margin-top: 0;
+	padding: 0;
+	background-color: #DDD;
+	box-shadow: 5px 5px 5px #b8b8b8;
+	width: 180px;
+	
+}
+#menuGauche #user  {
+	width:50px;
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+#menuGauche #user img {
+	width: 50px;
+}
+
+#menuGauche #infos {
+	margin-top: 0;
+	padding: 0.2em;
+}
+
+#menuGauche #infos h2 {
+	margin-top:0.5em;
+	color: #555;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align:center;
+}
+
+#menuGauche #infos h3 {
+    font-size : 0.8em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* style � appliquer � la balise ul d'identifiant menulist */
+#menuGauche ul.menuList{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    font-size: 1em;
+}
+
+/* style � appliquer aux �l�ments de la balise ul d'identifiant menulist */
+#menuGauche ul.menuList li {
+    position:relative;
+    margin:0px;
+    padding:0px;
+}
+
+/* apparences des liens dans listes et sous-listes non num�rot�es */
+#menuGauche ul.menuList a {
+    display: block;
+    text-decoration: none;
+	cursor: pointer;
+	height: 20px;
+	padding: 0.5em;
+	text-align: center;
+	
+	font-size: 1em;
+	font-weight: bold;
+	border: none;
+	color: #cecece;
+	text-shadow: 0px -1px 0px #000;
+	background: #1f2026;
+	background: -moz-linear-gradient(top,#1f2026,#15161a);
+	background: -webkit-gradient(linear,left top,left bottom,from(#1f2026),to(#15161a));
+	-webkit-box-shadow: 0px 0px 1px #000;
+	-moz-box-shadow: 0px 0px 1px #000;
+
+}
+#menuGauche ul.menuList a:hover {
+    color: white;
+	background: #343640;
+	background: -moz-linear-gradient(top,#343640,#15161a);
+	background: -webkit-gradient(linear,left top,left bottom,from(#343640),to(#15161a));
+}
+
+
+#menuGauche #menuPrincipal {
+    margin-top: 3em;
+}
+
+
+
+/*	CONTENU
+	________________________________________________________ 
+*/
+#contenu{
+	margin-top : 0.8em;
+	padding: 0 0.5em 0em 0.5em;
+	float: right;
+	width: 750px;
+	min-height:27em;
+}
+#contenu h2 {
+	background-color: #3d85c6;
+	box-shadow: 5px 5px 5px #b8b8b8;
+	margin-top:0;
+	padding:0.2em;
+	color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+
+/* Styles pour les tableaux de la page principale */
+#contenu table {
+   background-color: #ecffe5;
+   border : 0.1em dotted #38761d;
+   color: #38761d;
+   margin: 0 auto;
+   
+   border-collapse : collapse;
+}
+
+/* Style pour les lignes d'en-t�te des tableaux */
+#contenu th {  
+   background-color: #93c47d;
+   height: 15px;
+   text-align: center;
+   vertical-align: top;
+   font-weight: bold;
+   border-bottom: 0.1em solid #38761d;
+   font-size: 1.1em;
+   color: white; 
+} 
+
+#contenu td {
+   border :1px dotted #38761d;
+}
+
+
+table.listeLegere {
+	width:95%;
+    margin: 0 2em;
+	
+}
+
+/* Tableaux quadrill�s utilis�s pour l'affichage de listes avec contenu l�ger*/ 
+table.listeLegere th, table.listeLegere td {
+  border: dotted #38761d 0.1em;
+  padding: 0em 0.5em 0 0.5em;
+  vertical-align : top;
+  text-align : left;
+}
+
+
+table.listeLegere td {
+  vertical-align:middle;
+  font-weight:normal;
+  padding: 0.1em 0.5em;
+  text-align: center;
+}
+table.listeLegere th.eltForfait{
+  color:#073763;
+}
+table.listeLegere th.date, table.listeLegere th.montant{
+  width:15%;
+  color:#073763;
+  
+}
+table.listeLegere th.libelle{
+	width:70%;
+	color:#073763;
+}
+table.listeLegere td.libelle{
+	text-align : left;
+}
+
+table.listeLegere td.montant{
+	text-align : right;
+}
+table.listeLegere tr.report{
+	background-color: #cfe2f3;
+}
+table.listeLegere tr.nonvalide{
+	background-color: #f4cccc;
+}
+
+
+
+
+/*	SOUS CONTENU FORMULAIRES
+	________________________________________________________ 
+*/
+#sousContenu{
+	box-shadow: 5px 5px 5px #b8b8b8;
+	padding:0;
+	margin:0;
+	background-color: #d9ead3;
+	color: #073763;
+}
+#sousContenu h3{
+	color:white;
+	background: #6aa84f;
+	margin-top: 1em;
+	padding: 0.4em;
+    font-size : 1.3em;
+	font-weight: bold;
+}
+#sousContenu h4 {
+	margin: 0.8em 0 0.2em 0;
+	padding: 0.8em 0.5em 0.2em 0.5em;
+    font-size : 1.2em;
+	font-weight: bold;
+	color: #0b5394;
+	
+}
+/*	FORMULAIRES
+	________________________________________________________ 
+*/
+.corpsForm , .piedForm {
+	display: inline-block;
+	*display: inline; 
+	zoom: 1; /* ie6 ie7 hack */
+	margin: 0;
+}
+.corpsForm {
+	width: 523px;
+	vertical-align: top;
+}
+.piedForm {
+	width: 200px; /* Ajusté pour centrer le bouton */
+	vertical-align: bottom;
+}
+
+.piedFormAction {
+	width: 100%; /* Ajusté pour centrer le bouton */
+	text-align: center; /* Centrer le contenu */
+	vertical-align: bottom;
+}
+
+form {
+	padding: 0.5em 0.5em 1em 0.5em;
+}
+
+.corpsForm label {
+	float: left;
+	text-align: right;
+	width: 28%;
+	margin: 0;
+	padding: 0 .5em 0 0;
+	line-height: 1.8;
+}
+
+input, button, textarea, select {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1em;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+input:hover, textarea:hover, select:hover {
+	background-color: #FAFAE6;
+	cursor: pointer;
+}
+
+input.bouton:hover {
+	background: #343640;
+	background: -moz-linear-gradient(top, #343640, #15161a);
+	background: -webkit-gradient(linear, left top, left bottom, from(#343640), to(#15161a));
+}
+
+input.actionbutton:hover {
+	background: #343640;
+	background: -moz-linear-gradient(top, #343640, #15161a);
+	background: -webkit-gradient(linear, left top, left bottom, from(#343640), to(#15161a));
+}
+
+input.bouton {
+	cursor: pointer;
+	width: 95px;
+	height: 40px;
+	font-size: 1em;
+	font-weight: bold;
+	border: none;
+	color: #cecece;
+	text-shadow: 0px -1px 0px #000;
+	background: #1f2026;
+	background: -moz-linear-gradient(top, #1f2026, #15161a);
+	background: -webkit-gradient(linear, left top, left bottom, from(#1f2026), to(#15161a));
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px #000;
+	-moz-box-shadow: 0px 0px 1px #000;
+	box-shadow: 0px 0px 1px #000;
+}
+
+input.actionbutton {
+	cursor: pointer;
+	width: 200px;
+	height: 40px;
+	font-size: 1em;
+	font-weight: bold;
+	border: none;
+	color: #cecece;
+	text-shadow: 0px -1px 0px #000;
+	background: #1f2026;
+	background: -moz-linear-gradient(top, #1f2026, #15161a);
+	background: -webkit-gradient(linear, left top, left bottom, from(#1f2026), to(#15161a));
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px #000;
+	-moz-box-shadow: 0px 0px 1px #000;
+	box-shadow: 0px 0px 1px #000;
+	display: inline-block; /* Pour que le bouton soit bien centré */
+	margin: 0 auto; /* Centre le bouton */
+}
+
+/*	GESTION DES ETATS ET MONTANTS VALIDES
+	________________________________________________________ 
+*/
+
+
+#etat, #montantValide{
+	display: inline-block;
+	*display: inline; zoom: 1; /* ie6 ie7 hack */
+	margin: 0;
+}
+#etat{
+	margin: 0px 0px;
+	padding: 15px 10px 15px 70px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 20px center;
+	font-size: 1.2em;
+	width: 540px;
+	vertical-align: top;
+} 
+#etat.VA {
+	background-image: url(../../assets/images/euroOrange.png);
+}
+#etat.RB {
+	background-image: url(../../assets/images/euroVert.png);
+} 
+#etat.CL {
+	background-image: url(../../assets/images/lockBlue.png);
+} 
+#etat.CR {
+	background-image: url(../../assets/images/lockOpenGreen.png);
+}
+#montantValide{
+	margin: 0;
+	margin-bottom: 0;
+	font-size: 1.2em;
+	width: 110px;
+	height: 48px;
+	vertical-align: top;
+	text-align: center;
+	background-color: #3d85c6;
+	color : white;
+	box-shadow: 3px 3px 5px #b8b8b8;
+} 
+#montantValide div{
+	margin: 0;
+	padding: 0.1em;
+	font-weight: bold;
+	color : #3d85c6;
+	background-color: #c9daf8;
+	text-align: center;
+	vertical-align: center;
+	height: 26px;
+}
+/*	GESTION DES MESSAGES
+	________________________________________________________ 
+*/
+.erreur, .info{
+	margin: 10px 0px;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	font-size: 1.1em;
+} 
+.erreur {
+	background-image: url(../images/cancel.png);
+	-webkit-box-shadow: 0px 0px 4px #D63301;
+	-moz-box-shadow: 0px 0px 4px #D63301;
+	box-shadow: 0px 0px 4px #D63301;
+	color : #D63301;
+	background-color: #FFCCBA;
+} 
+
+.erreur ul {
+	margin: 0;
+} 
+
+.info {
+	background-image: url(../images/valid.png);
+	-webkit-box-shadow: 0px 0px 4px #4F8A10;
+	-moz-box-shadow: 0px 0px 4px #4F8A10;
+	box-shadow: 0px 0px 4px #4F8A10;
+	color : #4F8A10;
+	background-color: #DFF2BF;
+}
+
+.centre {
+	text-align:center;
+}
+
+.droite {
+	text-align : right;
+}
+
+.encadre {
+	border : solid 0.1em #000;
+	width : 95%;
+}
+
+/* Style pour les liens de la page principale */
+#contenu .corpsTexte {
+	width:80%;
+	font-size:1.2em;
+}
+
+/* Style pour les liens de la page principale */
+#contenu a {
+	font-size : 1.1em;
+	color:gray;
+	text-decoration:none;
+}
+
+/* Style pour les parties importantes de la page principale */
+#contenu strong {
+	font-weight:bold;
+}
